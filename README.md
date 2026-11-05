@@ -1,57 +1,58 @@
-## Hi there 👋
+👋 Hello, World! I'm an AI & ML Student
+Welcome to my GitHub profile! 🚀
 
-3D Printer Error Detection using ML
-This project implements a machine learning-based system to detect potential positional errors in a 3D printer using accelerometer data. It includes a complete pipeline from data preprocessing and model training to a live web application for predictions.
+I am a passionate and enthusiastic Artificial Intelligence and Machine Learning student who loves exploring the world of technology, innovation, and intelligent systems. I am interested in understanding how machines learn, how artificial intelligence works, and how technology can be used to solve real-world problems.
 
-🏗️ Project Structure
-ADXL345_SensorData.csv: The dataset containing accelerometer readings (X, Y, Z directions) and error labels.
+I believe that learning never stops, and I am always excited to explore new technologies, improve my programming skills, and turn creative ideas into practical solutions.
 
-LP3 - 3D Printer.ipynb: Jupyter notebook detailing the exploratory data analysis (EDA), data cleaning, and model training process.
+🎓 About Me
 
-app.py: A Flask web application to serve the model and provide a user interface for real-time error detection.
+🎓 Currently pursuing studies in Artificial Intelligence and Machine Learning.
+💻 Passionate about programming, technology, and software development.
+🤖 Interested in Artificial Intelligence, Machine Learning, and Deep Learning.
+🐍 Learning and improving my Python programming skills.
+📊 Exploring Data Science, Data Analysis, and Data Visualization.
+🧠 Interested in problem-solving and developing logical thinking.
+🌱 Continuously learning new tools, technologies, and frameworks.
+🔍 Enjoy exploring innovative ideas and experimenting with new projects.
+🚀 Focused on building practical projects and gaining real-world experience.
+🎯 Aspiring to become a successful AI/ML Engineer.
+💡 My Areas of Interest
 
-model.pkl: The trained Support Vector Classifier (SVC) model.
+Artificial Intelligence (AI)
+Machine Learning (ML)
+Deep Learning (DL)
+Natural Language Processing (NLP)
+Data Science and Analytics
+Computer Vision
+Neural Networks
+Python Programming
+Generative AI
+Automation and Intelligent Systems
+🛠️ Technical Skills
 
-scaler.pkl: The MinMaxScaler used to normalize input features.
+Programming Languages
 
-printergridsvc.pkl: A saved version of the model optimized via Grid Search.
+Python
+C / C++ (Learning)
+SQL (Learning)
+Core Concepts
 
-📊 Dataset Overview
-The model is trained on sensor data from an ADXL345 accelerometer mounted on a 3D printer.
+Machine Learning Fundamentals
+Data Structures and Algorithms
+Data Analysis
+Object-Oriented Programming
+Statistical Concepts
+Tools & Technologies
 
-Features: X-direction, Y-direction, Z-direction (float values).
+Git and GitHub
+Jupyter Notebook
+Google Colab
+VS Code
+NumPy and Pandas (Learning)
+Matplotlib and Scikit-learn (Learning)
+📚 Currently Learning
 
-Target: Error_found (yes or no, converted to binary 1 and 0).
+I am continuously working on improving my technical knowledge and developing a strong foundation in:
 
-🛠️ Data Pipeline
-Preprocessing: Categorical target labels are converted to binary format.
-
-Outlier Handling: Outliers are managed using the percentile method (5th and 95th percentiles) to ensure model robustness.
-
-Feature Scaling: Features are normalized using MinMaxScaler to bring them into a uniform range.
-
-Modeling: A Support Vector Machine (SVM) was utilized, with hyperparameter tuning performed via GridSearchCV.
-
-🚀 Deployment (Flask App)
-The project includes a web interface that allows users to input current X, Y, and Z coordinates to check for errors.
-
-How to Run:
-
-Install dependencies:
-
-Bash
-pip install flask numpy pandas scikit-learn
-Run the application:
-
-Bash
-python app.py
-Access the app at http://127.0.0.1:5000/ in your browser.
-
-📈 Model Performance
-The model was evaluated using accuracy scores and confusion matrices within the Jupyter notebook to ensure reliable error detection.
-
-Author: Yash Bavale
-Niche: Artificial Intelligence & Machine Learning<!--
-**Yash-Bavale/yash-bavale** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-
+Python
